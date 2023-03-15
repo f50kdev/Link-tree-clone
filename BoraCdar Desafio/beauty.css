@@ -1,0 +1,111 @@
+_:root{
+
+     
+     font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffff;
+     font-family: 'Poppins', sans-serif;
+    
+     
+}
+
+.main{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: center;
+     padding-top: 200px;
+     width: 100%;
+     height: auto;
+     justify-content: center;
+}
+
+
+
+
+.PHOTO{
+     display: flex;
+     gap: 10px;
+     flex-direction: column;
+     align-items: center;
+}
+
+.perf{
+     border: 6px  solid rgba(179, 17, 211, 0.767);
+     border-radius: 300px;
+     background-size: cover;
+     background-image: url(https://scontent.flad4-1.fna.fbcdn.net/v/t39.30808-6/334311488_717527503342174_610375652238110519_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE7J1CTSI9fb_1qPbsVryuyXM4IqAUfi-hczgioBR-L6AefP-fH6aRcrJhRE2BB6jcH-oPiDJcPcGJSzbHeo55a&_nc_ohc=2VxbKX4ogvMAX906m7v&_nc_zt=23&_nc_ht=scontent.flad4-1.fna&oh=00_AfDWHKV9UyC79nzQQIRXcqi4fH-zEjnmuadBlzrvW2ttFQ&oe=641703EE);
+     height: 100px;
+     width: 100px;
+     background-position: top;
+     animation: borda 1s infinite ease-in-out;
+}
+
+a:link{
+     text-decoration:none;
+     cursor: pointer;
+     color: black;
+
+}
+
+button{
+     background-color: transparent;
+     width: 326px;
+     height: 49px;
+     border-radius: 4px;
+}
+
+button:hover{
+     cursor:pointer;
+     background-color: rgb(182, 18, 204);
+     color: white;
+     width: 326px;
+     height: 49px;
+     border-radius: 4px;
+     transition:  all 0.5s;
+     
+}
+
+.btns{
+     cursor: pointer;
+     display: flex;
+     gap: 10px;
+      flex-direction: column;
+}
+
+
+  
+  
+ 
+
+.redes{
+     padding-top: 50px;
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-between;
+
+}
+
+@keyframes borda {
+
+     70%{
+          border: 4px solid black;
+          
+     }
+
+     50%{
+          border-radius: 4px solid blue;
+          
+          }
+
+     30%{
+          border: solid  red 4px;
+     
+     }
+     
+}
+
